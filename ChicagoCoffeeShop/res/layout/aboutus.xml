@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#352E2E" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="About Us"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#F9F2F2" />
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="48dp"
+        android:text="We have a reputation for providing only quality products and outstanding customer service since we opened, over 30 years ago, in 1982. We have gained that reputation by listening to our customers needs and responding by providing the products and services they need delivered right to their office. At Chicago Coffee Service we have pride in being large enough to offer you the best products and services at an exceptional value and also flexible enough to provide for any special requirements your organization may have. When you call Chicago Coffee Service you will speak to a real person who will work with you to fulfill your organization's needs."
+        android:textColor="#F9F2F2" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

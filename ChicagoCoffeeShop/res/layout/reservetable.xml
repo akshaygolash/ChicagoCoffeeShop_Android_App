@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical" 
+   android:background="#352E2E">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sendEmail"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="90dp"
+        android:text="Please note: 
+Our app will now use your default mailing application to send an email to us which will help us to book a table for you! Please fill in the details asked in mail"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#F9F2F2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="15dp"
+        android:text="Reserve a table!"
+        android:textColor="#F9F2F2" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/sendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:background="#3E2BCE"
+        android:text="Click me to reserve a table for you!"
+        android:textColor="#F9F2F2" />
+    
+</RelativeLayout>

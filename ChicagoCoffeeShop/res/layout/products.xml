@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#352E2E">
+
+    
+   <ScrollView 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"> 
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Menu"
+        android:textColor="#F9F2F2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="36dp"
+        android:text="1. The Shaken Sweet Tea:
+        
+Introducing new Shaken Sweet Tea. For the first time, we’re brewing our high quality Teavana® black iced tea double-strength with real cane sugar. It’s the authentic Sweet Tea flavor you love!"
+         android:textColor="#F9F2F2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="32dp"
+        android:text="2.Caffè Vanilla Light Frappuccino:
+        
+    Who doesn’t enjoy the rich, creamy taste of vanilla? Lose the calories, add coffee and milk and you have the makings of the ultimate sensible indulgence. And, at a mere 140 calories for a Tall (12 fl oz) serving, it’s destined to become a summer favorite.
+    
+    "
+        android:textColor="#F9F2F2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="3.Chocolate Smoothie:
+        
+        
+    Let’s be frank – there are a lot of smoothies out there. But if we had to nominate one for all-around best smoothie, it would be this one. Like our other smoothies, it’s an energizing boost made with real fruit and whey protein and fiber powder. But the not-so-secret-ingredient that gives this one the edge in deliciousness: the flavor of chocolate. And that flavor always wins. End of story. (What could possibly make it better? Well, you could always add a shot of espresso to it.)"
+         android:textColor="#F9F2F2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    </LinearLayout>
+    </ScrollView>
+    
+
+</RelativeLayout>
